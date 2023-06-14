@@ -70,7 +70,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_VERSION="R12.1"
 	export FOX_BUILD_TYPE="Test"
 	export OF_MAINTAINER="Rull"
-	export OF_MAINTAINER_AVATAR="/recovery/root/orangefox.png"
+	export OF_MAINTAINER_AVATAR="/home/avatar/icon/orangefox.png"
 
 	# OTA
 	export OF_KEEP_DM_VERITY=1
