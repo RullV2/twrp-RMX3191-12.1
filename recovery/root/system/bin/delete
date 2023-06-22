@@ -1,0 +1,4 @@
+rm -rf /my_stock/priv-app/GlobalSearch/
+rm -rf /my_bigball/app/Browser/
+rm -rf /my_bigball/app/SoftsimRedteaRoaming/
+rm -rf /my_bigball/app/Pictorial/
