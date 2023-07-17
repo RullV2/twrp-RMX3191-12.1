@@ -31,6 +31,6 @@
 /proinfo         emmc      /dev/block/by-name/proinfo     flags=backup
 
 # External-Devices (SDCARD | OTG)
-/external_sd     auto      /dev/block/mmcblk1p1    /dev/block/mmcblk1
+/external_sd     auto      /dev/block/mmcblk0    /dev/block/mmcblk0
 /usb-otg         auto      /dev/block/sda1         /dev/block/sda        flags=storage;wipeingui;removable
 
