@@ -14,7 +14,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Shipping API level
-PRODUCT_SHIPPING_API_LEVEL := 32
+# PRODUCT_SHIPPING_API_LEVEL := 32
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(LOCAL_PATH)/recovery/root,recovery/root)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX3191
